@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.padre {
+  display: flex;
+}
+menu {
+  display: flex;
+  min-width: 200px;
+  min-height: 200vh;
+}
+menu ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+menu li {
+  margin-left: 0px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  border: solid gray;
+}
+.maria {
+  padding-top: 10px;
+}
+.maria img {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+.maria i {
+  margin: 10px;
+  margin-right: 5px;
+  padding-right: 10px;
+}
+.maria p {
+  padding-left: 5%;
+}
+
+menu button {
+  background-color: lavender;
+  padding: 15px 70px;
+}
+.contacto {
+  display: flex;
+  padding-left: 10px;
+  margin-left: 0%;
+  justify-content: start;
+}
+.contacto p {
+  margin-left: 15px;
+  padding-top: 10px;
+  margin-right: 15px;
+}
+
+.contacto img {
+  border-radius: 100%;
+  width: 50px;
+  height: auto;
+}
+.contenido {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+.logo {
+  width: 150px;
+  padding-top: 220px;
+}
+.texto {
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
