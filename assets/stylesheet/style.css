@@ -5,23 +5,23 @@
 .padre {
   display: flex;
 }
-menu {
+
+.origen {
+  flex-direction: column;
+  list-style: none;
   display: flex;
   min-width: 200px;
   min-height: 200vh;
 }
-menu ul {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-}
 
-menu li {
+.origen li {
   margin-left: 0px;
   padding: 30px;
   display: flex;
   justify-content: center;
-  border: solid gray;
+  overflow-y: auto;
+  flex-shrink: 0;
+  border: solid lightgray;
 }
 .maria {
   padding-top: 10px;
@@ -40,15 +40,16 @@ menu li {
   padding-left: 5%;
 }
 
-menu button {
+.origen button {
   background-color: lavender;
   padding: 15px 70px;
 }
 .contacto {
-  display: flex;
   padding-left: 10px;
   margin-left: 0%;
   justify-content: start;
+  overflow-y: auto;
+  flex-shrink: 0;
 }
 .contacto p {
   margin-left: 15px;
@@ -74,7 +75,8 @@ menu button {
   padding-top: 220px;
 }
 .texto {
-    text-align: center;
-    justify-content: center;
-    flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 300px;
 }
