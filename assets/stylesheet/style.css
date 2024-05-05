@@ -69,6 +69,7 @@
   height: 100%;
   align-items: center;
   flex-direction: column;
+  background-image: url(../img/fondo.jpg)
 }
 .logo {
   width: 150px;
